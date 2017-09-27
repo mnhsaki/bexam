@@ -1,0 +1,287 @@
+/*Extra Small Device*/
+
+@media (max-width: 767px) {
+    /*HEADER*/
+    header {
+        background-image: url(../img/header_back.jpg);
+        height: 500px;
+    }
+    .header button {
+        background-color: transparent;
+        margin-top: 20px;
+        border: none;
+        color: white;
+    }
+    .header_text {
+        text-align: right;
+        margin-bottom: 0px;
+    }
+    .header_text h1 {
+        font-size: 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .header_text p {
+        font-size: 15px;
+        color: #fff;
+    }
+    .header_text d {
+        font-style: italic;
+        font-weight: bolder;
+    }
+    .header_content_bar {
+        position: relative;
+        z-index: 10;
+    }
+    .header_content_img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80px;
+        z-index: -5;
+    }
+    .download_btn .btn-default {
+        background-color: transparent;
+        padding: 8px 15px;
+        border: 2px solid white;
+        color: #fff;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    /*Start contain_section_top*/
+    .contain_section_top {
+        background: #F4F4F4;
+        min-height: 450px;
+        z-index: 10;
+        position: relative;
+    }
+    .feature_text h2 {
+        font-size: 30px;
+        color: #555555;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .feature_text p {
+        font-size: 12px;
+        color: #7E7E7E;
+        margin-bottom: 10px;
+    }
+    .phn_img {
+        position: absolute;
+        right: 0px;
+        bottom: -755px;
+        z-index: 0;
+    }
+    .feature_text blockquote {
+        border-left: 4px solid #4EACDD;
+    }
+    .feature_text blockquote p {
+        font-style: italic;
+        font-size: 12px;
+    }
+    .features_btn .btn-default {
+        background-color: transparent;
+        border: 2px solid #49BFA7;
+        color: #49BFA7;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .features_btn .btn-default i {
+        display: inline-block;
+        padding-left: 10px;
+    }
+    /*Start contain_section_bottom*/
+    .contain_section_bottom {
+        background-color: #FFFFFF;
+        min-height: 450px;
+        position: relative;
+        z-index: 100;
+    }
+    .add_img {
+        position: absolute;
+        left: 0;
+        top: 300px;
+        bottom: 0;
+        z-index: 5;
+    }
+    .add_text_group {
+        position: absolute;
+        left: -166px;
+        right: 0;
+        width: 100%;
+        margin-left: 170px;
+        top: 0px;
+    }
+    .add_text h2 {
+        font-size: 30px;
+        color: #555555;
+        text-align: center;
+    }
+    .add_text p {
+        font-size: 16px;
+        color: #767676;
+    }
+    /*Start Bannar_section*/
+    .like_bannar {
+        background-image: url(../img/buy_back.jpg);
+        background-repeat: no-repeat;
+        min-height: 250px;
+        background-size: cover;
+        background-position: center center;
+        z-index: 100;
+        position: relative;
+    }
+    .buy_title h1 {
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .buy_btn .btn-default {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px 30px;
+        margin: 20px 0px;
+    }
+    /* Start Footer Section_top*/
+    .newsletter {
+        min-height: 400px;
+        background-color: #F4F4F4;
+    }
+    .social_icons {
+        text-align: center;
+    }
+    .social_icons a {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid #545454;
+        margin-top: 30px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+    .social_icons a i {
+        font-size: 25px;
+        color: #545454;
+        margin-top: 10px;
+    }
+    .newsletter_sub label {
+        font-size: 16px;
+        font-style: italic;
+        margin-right: 18px;
+        color: #5D5D5D;
+    }
+    .form-control {
+        background-color: #fff;
+        border-radius: 10px;
+        border: 0;
+        box-shadow: none !important;
+        color: #000;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .input-group-addon {
+        border-radius: 10px;
+        background-color: #fff;
+        border: none;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-left: 2px solid #E9E9E9;
+    }
+    .input-group-addon i {
+        color: #6EC5EA;
+    }
+    /* Start Footer Section €Bottom*/
+    .footer {
+        min-height: 100px;
+        background-color: #fff;
+        margin-top: 50px;
+    }
+    .copyright p {
+        font-size: 12px;
+        color: #545454;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+
+/*Small Device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*contain_section_bottom*/
+    .contain_section_bottom {
+        background-color: #FFFFFF;
+        min-height: 450px;
+        position: relative;
+        z-index: 100;
+    }
+    .add_img {
+        position: absolute;
+        left: 0;
+        top: 250px;
+        bottom: 0;
+        z-index: 5;
+    }
+    .add_text_group {
+        position: absolute;
+        left: -166px;
+        right: 0;
+        width: 100%;
+        margin-left: 200px;
+        top: 30px;
+    }
+    .add_text h2 {
+        font-size: 30px;
+        color: #555555;
+        text-align: center;
+    }
+    .add_text p {
+        font-size: 16px;
+        color: #767676;
+    }
+}
+
+
+/*Medium Device*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .add_text_group {
+        position: absolute;
+        left: -166px;
+        right: 0;
+        width: 100%;
+        margin-left: 100px;
+        top: 30px;
+    }
+    .social_icons {
+        text-align: center;
+    }
+    .social_icons a {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid #545454;
+        margin-top: 180px;
+        margin-right: 15px;
+        margin-bottom: 50px;
+    }
+    .social_icons a i {
+        font-size: 25px;
+        color: #545454;
+        margin-top: 10px;
+    }
+}
+
+
+/*Large Device*/
+
+@media (min-width: 1200px) {}
